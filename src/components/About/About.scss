@@ -1,0 +1,35 @@
+#about {
+    padding: 2rem;
+}
+
+.about-statement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        margin-right: 1rem;
+        border-radius: 50%;
+        width: calc(12.5vw + 12.5vh);
+    }
+
+    .text-bubble {
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        font-size: large;
+    }
+
+    @media (max-width: 768px) {
+        // remove text bubbles min width
+        .text-bubble {
+            min-width: 0;
+        }
+
+        // remove img
+        img {
+            display: none;
+        }
+    }
+}

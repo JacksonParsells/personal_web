@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  margin-left: 25%;
+
+  /* when not mobile push over for sidebar */
+  @media (max-width: 768px) {
+    margin-left: 0%;
+  }
+}
