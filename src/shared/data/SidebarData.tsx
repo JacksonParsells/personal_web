@@ -23,7 +23,7 @@ const SidebarData: SidebarItem[] = [
     },
     {
         title: 'Blog',
-        path: '/blog',
+        path: 'https://jazzy-waxflower-1d7.notion.site/Jackson-s-Miscellaneous-Thoughts-3d56897dd8034a71944aa8cf47da1d1f',
         icon: <FaIcons.FaNewspaper />,
     },
     {

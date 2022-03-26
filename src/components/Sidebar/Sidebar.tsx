@@ -10,10 +10,17 @@ const Sidebar: React.FunctionComponent = () => {
             {SidebarData.map((item, index) => {
                 return (
                     <div key={index} className="sidebar-item">
-                        <a href={item.path}>
-                            {item.icon}
-                            <span> {item.title}</span>
-                        </a>
+                        {item.title.includes('Blog') ? (
+                            <a href={item.path} target="_blank" rel="noopener noreferrer">
+                                {item.icon}
+                                <span>{item.title}</span>
+                            </a>
+                        ) : (
+                            <a href={item.path}>
+                                {item.icon}
+                                <span> {item.title}</span>
+                            </a>
+                        )}
                     </div>
                 );
             })}
