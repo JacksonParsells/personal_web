@@ -13,7 +13,7 @@ const Sidebar: React.FunctionComponent = () => {
                         {item.title.includes('Blog') ? (
                             <a href={item.path} target="_blank" rel="noopener noreferrer">
                                 {item.icon}
-                                <span>{item.title}</span>
+                                <span> {item.title}</span>
                             </a>
                         ) : (
                             <a href={item.path}>
