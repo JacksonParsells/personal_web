@@ -1,5 +1,4 @@
 import React from 'react';
-import './Experience.scss';
 import Resume from './resume.pdf';
 
 const Experience: React.FunctionComponent = () => {
@@ -7,22 +6,22 @@ const Experience: React.FunctionComponent = () => {
         <div id="experience">
             <span className="experience-header">
                 <h1>Experience</h1>
-                <button className='button' onClick={() => window.open(Resume, '_blank')}>
+                <button type="button" className='btn btn-success' onClick={() => window.open(Resume, '_blank')}>
                     Click here to view my resume
                 </button>
             </span>
-            <div className="experience-content">
-                <div className="experience-item">
-                    <h2>
+            <div className="container">
+                <div className="card">
+                    <div className="card-header">
                         2020
-                    </h2>
-                    <ul>
-                        <li>Automated Test Developer @<a href="https://mumvia.com/info/">Mumvia</a></li>
-                        <li>Teaching Assistant @<a href="https://www.cs.tufts.edu/comp/11/">CS11</a></li>
-                        <li>Residential Assistant @<a href="https://www.tufts.edu/">Tufts</a> for Carmichael Hall</li>
-                        <li>Student Consultant @<a href="https://180dctufts.com/">180 Degrees Consulting</a></li>
-                        <li>Consulting Intern @<a href="https://www.turnthebus.org/">Turn the Bus</a></li>
-                        <li>Frontend Web Developer for @<a href="https://jumbocode.org/">Jumbocode</a></li>
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">Automated Test Developer @<a href="https://mumvia.com/info/">Mumvia</a></li>
+                        <li className="list-group-item">Teaching Assistant @<a href="https://www.cs.tufts.edu/comp/11/">CS11</a></li>
+                        <li className="list-group-item">Residential Assistant @<a href="https://www.tufts.edu/">Tufts</a> for Carmichael Hall</li>
+                        <li className="list-group-item">Student Consultant @<a href="https://180dctufts.com/">180 Degrees Consulting</a></li>
+                        <li className="list-group-item">Consulting Intern @<a href="https://www.turnthebus.org/">Turn the Bus</a></li>
+                        <li className="list-group-item">Frontend Web Developer for @<a href="https://jumbocode.org/">Jumbocode</a></li>
                     </ul>
                 </div>
                 <div className="experience-item">
