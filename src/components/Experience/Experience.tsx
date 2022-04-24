@@ -36,6 +36,7 @@ const Experience: React.FunctionComponent = () => {
                             <li className="list-group-item">Project Manager for @<a href="https://jumbocode.org/">Jumbocode</a></li>
                             <li className="list-group-item">Team Leader for @<a href="https://180dctufts.com/">180 Degrees Consulting</a></li>
                             <li className="list-group-item">Software Engineering Intern for @<a href="https://www.heypluto.com/">Pluto</a></li>
+                            <li className="list-group-item">Residential Assistant @<a href="https://www.tufts.edu/">Tufts</a> for Metcalf Hall</li>
                             <li className="list-group-item">Full Stack Web Developer for @<a href="https://www.inciteoffice.com/">Incite Solutions</a></li>
                             <li className="list-group-item">Coding Assistant for @<a href="https://universitycollege.tufts.edu/high-school/programs/coding-101">Coding 101</a></li>
                             <li className="list-group-item">Course instructor for @<a href="https://www.idtech.com/">ID Tech</a></li>
