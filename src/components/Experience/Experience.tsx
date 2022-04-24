@@ -7,7 +7,7 @@ const Experience: React.FunctionComponent = () => {
             <div className="container">
             <div className="row">
                 <h1>Experience </h1>
-                <button type="button" className='btn btn-primary' onClick={() => window.open(Resume, '_blank')}>
+                <button type="button" className='btn btn-dark' onClick={() => window.open(Resume, '_blank')}>
                     Click here to view my resume
                 </button>
             </div>
