@@ -6,10 +6,14 @@ const Experience: React.FunctionComponent = () => {
         <div id="experience">
             <div className="container">
             <div className="row">
-                <h1>Experience </h1>
-                <button type="button" className='btn btn-dark' onClick={() => window.open(Resume, '_blank')}>
-                    Click here to view my resume
-                </button>
+                <div className="col-sm">
+                    <h1>Experience </h1>
+                </div>
+                <div className="col-sm">
+                    <button type="button" className='btn btn-dark' onClick={() => window.open(Resume, '_blank')}>
+                        Click here to view my resume
+                    </button>
+                </div>
             </div>
                 <div className="row">
                     <div className="col-sm">

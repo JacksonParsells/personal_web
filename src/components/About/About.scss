@@ -11,7 +11,7 @@
     img {
         margin-right: 1rem;
         border-radius: 50%;
-        width: calc(12.5vw + 12.5vh);
+        width: calc(17.5vw + 17.5vh);
     }
 
     .text-bubble {
@@ -26,10 +26,8 @@
         .text-bubble {
             min-width: 0;
         }
-
-        // remove img
-        img {
-            display: none;
-        }
+	img {
+	    width: 80%;
+	}
     }
 }
